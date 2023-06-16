@@ -1,0 +1,14 @@
+
+
+POST http://localhost:8080/ws
+Connection: keep-alive
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://spring.io/guides/gs-producing-web-service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getTraduccionRequest>
+         <gs:name>Lunes</gs:name>
+      </gs:getTraduccionRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
