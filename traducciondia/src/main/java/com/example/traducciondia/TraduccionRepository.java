@@ -18,6 +18,7 @@ public class TraduccionRepository {
     public void initData() {
 
         // Crear objetos Dia sin el constructor
+        // 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
         Dia dia1 = new Dia();
         dia1.setNombre("Lunes");
         dia1.setTraduccion("Monday");
