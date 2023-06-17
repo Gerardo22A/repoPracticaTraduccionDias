@@ -1,0 +1,20 @@
+contraseña
+
+
+database: idatdb
+username: 92xyvzkw47cl2s8su796
+host: aws.connect.psdb.cloud
+password: pscale_pw_Vuyo6lUL5tlbxeJf3VnV3wpygjC3J8W8gyn18lHz0K3
+
+
+
+java
+
+Class.forName("com.mysql.cj.jdbc.Driver");
+Connection conn = DriverManager.getConnection(
+  "jdbc:mysql://aws.connect.psdb.cloud/idatdb?sslMode=VERIFY_IDENTITY",
+  "92xyvzkw47cl2s8su796",
+  "pscale_pw_Vuyo6lUL5tlbxeJf3VnV3wpygjC3J8W8gyn18lHz0K3");
+
+
+importante !!! ->  jdbc:mysql://aws.connect.psdb.cloud/idatdb?sslMode=VERIFY_IDENTITY

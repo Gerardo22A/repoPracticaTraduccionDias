@@ -8,7 +8,7 @@ Connection: keep-alive
    <soapenv:Header/>
    <soapenv:Body>
       <gs:getTraduccionRequest>
-         <gs:name>Lunes</gs:name>
+         <gs:nombre>Viernes</gs:nombre>
       </gs:getTraduccionRequest>
    </soapenv:Body>
 </soapenv:Envelope>
