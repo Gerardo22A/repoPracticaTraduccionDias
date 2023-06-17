@@ -28,6 +28,7 @@ public class MainController {
 
     @GetMapping(path = "/all")
     public @ResponseBody Iterable<Mascota> getAllMascotas() {
+        System.out.println("llego");
         return mascotaRepository.findAll();
     }
 
